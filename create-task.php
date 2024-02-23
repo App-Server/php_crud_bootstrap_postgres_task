@@ -6,7 +6,7 @@ include 'erro.php';
 
 ?>
 
-<div class="container d-flex justify-content-center" style="margin-top: 130px;">
+<div class="container d-flex justify-content-center shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="margin-top: 130px;">
 
     <form class="row g-3 needs-validation" novalidate method="POST" action="">
         <?php
@@ -110,7 +110,7 @@ include 'erro.php';
 
         <div class="col-md-4">
             <label for="validationCustom01" class="form-label">Prazo de entrega*</label>
-            <input type="datetime-local" class="form-control" id="validationCustom01"name="prazo_de_entrega" placeholder="(Obrigatório)" required>
+            <input type="date" class="form-control" id="validationCustom01"name="prazo_de_entrega" placeholder="(Obrigatório)" required>
         </div>
 
         <div class="mb-3">
@@ -119,9 +119,10 @@ include 'erro.php';
         </div>
 
         <div class="col-12">
-            <button class="btn btn-primary" type="submit">Cadastrar Tarefa*</button>
+            <button class="btn btn-primary" type="submit">Cadastrar Tarefa</button>
         </div>
     </form>
+    
 
 </div>
 

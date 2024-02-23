@@ -8,6 +8,13 @@ CREATE TABLE task (
     Prazo_de_entrega VARCHAR(20) NOT NULL
 );
 
+ALTER TABLE task
+ALTER COLUMN quem_vai_executar_a_tarefa TYPE VARCHAR(40),
+ALTER COLUMN descricao_da_atividade TYPE VARCHAR(10000),
+ALTER COLUMN prioridade TYPE VARCHAR(40),
+ALTER COLUMN Prazo_de_entrega TYPE VARCHAR(20);
+
+
 ALTER TABLE clientes
 ADD COLUMN id SERIAL PRIMARY KEY,
 ADD COLUMN data_do_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

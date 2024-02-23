@@ -6,7 +6,7 @@ include 'erro.php';
 
 ?>
 
-<div class="container" style="margin-top: 130px;">
+<div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="margin-top: 130px;">
 
     <form method="POST" action="">
 
@@ -116,7 +116,7 @@ include 'erro.php';
 
             <div class="col-md-4">
                 <label for="validationCustom01" class="form-label">Prazo de entrega</label>
-                <input type="datetime-local" class="form-control" id="validationCustom01" name="prazo_de_entrega" value="<?php echo $row['prazo_de_entrega']; ?>" placeholder="(Obrigatório)" required>
+                <input type="date" class="form-control" id="validationCustom01" name="prazo_de_entrega" value="<?php echo $row['prazo_de_entrega']; ?>" placeholder="(Obrigatório)" required>
             </div>
         </div>
 

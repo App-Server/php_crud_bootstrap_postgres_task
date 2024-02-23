@@ -21,5 +21,18 @@
 }
 
 .navbar {
-    background-color: #001042;
+   background-color: #001042;;
 }
+
+.shadow {
+    width: 18rem;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:active {
+    color: white;
+}
+
